@@ -5,7 +5,7 @@ Homework week 3 task was to create a random password generator using java script
 So designed the HTML first then designed the CSS and finally using Java script transformed it to be able to generate the password.
 
 Link to password generator website:
-https://neale2021.github.io/Password-Generator/
+ https://neale2021.github.io/Updated-password-generator-homework/
 
 Used various arrays and math functions.
 
