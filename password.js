@@ -31,19 +31,19 @@ function generatePassword() {
 
     var confirmLength = (prompt("Please enter the number of characters you want for you new password?  It must be more than 8 but less than 128."));
    // Loop if answer is outside the parameters 
-  while(confirmLength <= 7 || confirmLength >= 129) {
+  while(confirmLength <= 8 || confirmLength >= 128) {
     alert("Password length must be between 8-128 characters Try again");
   
     var confirmLength = (prompt("How many characters would you like your password to contain?"));
     
     // Determine parameters of password 
-    var confirmSpecialChar = confirm("Click OK to confirm if you would like to include special characters");
+    var confirmSpecialChar = ( confirm("Click OK to confirm if you would like to include special characters"));
 
-    var confirmNumber = confirm("Click OK to confirm if you would like to include numeric characters"); 
+    var confirmNumber = (confirm("Click OK to confirm if you would like to include numeric characters")); 
 
-    var confirmLowerCase = confirm("Click OK to confirm if you would like to include lowercase characters");
+    var confirmLowerCase = (confirm("Click OK to confirm if you would like to include lowercase characters"));
 
-    var confirmUpperCase = confirm("Click OK to confirm if you would like to include uppercase characters");
+    var confirmUpperCase = (confirm("Click OK to confirm if you would like to include uppercase characters"));
 
 
 
